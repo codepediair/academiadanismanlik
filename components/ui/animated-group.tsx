@@ -1,6 +1,6 @@
 'use client';
 import { ReactNode } from 'react';
-import { motion, Variants } from 'framer-motion'; // Changed from 'motion/react' to 'framer-motion'
+import { motion, Variants } from 'motion/react'; // Changed from 'motion/react' to 'framer-motion'
 import React from 'react';
 
 export type PresetType =
