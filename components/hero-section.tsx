@@ -83,7 +83,7 @@ export default function HeroSection() {
                 <AnimatedGroup variants={transitionVariants}>
                   <Link
                     href="#link"
-                    className="hover:bg-background dark:hover:border-t-border bg-orange-100 group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md shadow-zinc-950/5 transition-colors duration-300 dark:border-t-white/5 dark:shadow-zinc-950"
+                    className="hover:bg-background dark:hover:border-t-border bg-orange-400 group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md shadow-zinc-950/5 transition-colors duration-300 dark:border-t-white/5 dark:shadow-zinc-950"
                   >
                     <span className="text-foreground text-sm">
                       Reserved Meet Time with our Team
@@ -161,7 +161,7 @@ export default function HeroSection() {
                     className="h-10.5 rounded-xl px-5"
                   >
                     <Link href="#link">
-                      <span className="text-nowrap">Request a Meeting</span>
+                      <span className="text-nowrap">Certificates</span>
                     </Link>
                   </Button>
                 </AnimatedGroup>
