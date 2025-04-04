@@ -10,8 +10,8 @@ export default function Home() {
     <div>
       <HeroSection/>
       <LogoCloud/>
-      <ContentSection/>
       <Features/>
+      <ContentSection/>
       <ContactSection/>
       <FooterSection/>
     </div>

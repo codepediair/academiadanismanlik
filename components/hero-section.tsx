@@ -6,6 +6,7 @@ import Image from "next/image";
 import { TextEffect } from "@/components/motion-primitives/text-effect";
 import { AnimatedGroup } from "@/components/motion-primitives/animated-group";
 import { HeroHeader } from "@/components/hero5-header";
+import LogoCloud from "./logo-cloud";
 
 const transitionVariants = {
   item: {
@@ -111,7 +112,7 @@ export default function HeroSection() {
                 >
                   Modern Solutions for Customer Engagement
                 </TextEffect>
-                <TextEffect
+                {/* <TextEffect
                   per="line"
                   preset="fade-in-blur"
                   speedSegment={0.3}
@@ -123,9 +124,9 @@ export default function HeroSection() {
                   of experts in their fields, who have come together in order to
                   provide the consultancy services that companies need from a
                   single source and in a coordinated manner.
-                </TextEffect>
+                </TextEffect> */}
 
-                <AnimatedGroup
+                {/* <AnimatedGroup
                   variants={{
                     container: {
                       visible: {
@@ -164,7 +165,7 @@ export default function HeroSection() {
                       <span className="text-nowrap">Certificates</span>
                     </Link>
                   </Button>
-                </AnimatedGroup>
+                </AnimatedGroup> */}
               </div>
             </div>
 
