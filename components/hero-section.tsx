@@ -187,7 +187,7 @@ export default function HeroSection() {
                   aria-hidden
                   className="bg-linear-to-b to-background absolute inset-0 z-10 from-transparent from-35%"
                 />
-                <div className="inset-shadow-2xs ring-background dark:inset-shadow-white/20 bg-background relative mx-auto max-w-6xl overflow-hidden rounded-2xl border p-4 shadow-lg shadow-zinc-950/15 ring-1">
+                {/* <div className="inset-shadow-2xs ring-background dark:inset-shadow-white/20 bg-background relative mx-auto max-w-6xl overflow-hidden rounded-2xl border p-4 shadow-lg shadow-zinc-950/15 ring-1">
                   <Image
                     className="bg-background aspect-15/8 relative hidden rounded-2xl dark:block"
                     src="/heroImg.jpg"
@@ -202,7 +202,7 @@ export default function HeroSection() {
                     width="2700"
                     height="1300"
                   />
-                </div>
+                </div> */}
               </div>
             </AnimatedGroup>
           </div>

@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <div>
       <HeroSection/>
-      <LogoCloud/>
       <Features/>
       <ContentSection/>
       <ContactSection/>
+      <LogoCloud/>
       <FooterSection/>
     </div>
   );

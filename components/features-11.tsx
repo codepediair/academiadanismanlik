@@ -17,7 +17,7 @@ import {
 export default function Features() {
   return (
     <section
-      className="dark:bg-muted/25 bg-zinc-50 py-16 md:py-32"
+      className="dark:bg-muted/25 bg-gradient-to-b from-white via-blue-200 to-white py-16 md:py-32"
       id="services"
     >
       <div className="mx-auto max-w-5xl px-6">

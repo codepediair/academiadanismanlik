@@ -9,7 +9,7 @@ export default function ContentSection() {
                 <div className="relative">
                     <div className="relative z-10 space-y-4 md:w-1/2">
                         <p className="text-body">
-                        ACADEMIA CONSULTING <span className="text-title font-medium">is a consultancy organization consisting</span> — of experts in their fields, who have come together in order to provide the consultancy services that companies need from a single source.Our company, which includes 5 main service groups: Product Certification Group, System Certification Group, Training Support Group, Legal Compliance Group and Project Group, aims to provide all the necessary support for companies to breathe from a single address, thus allowing great developments in a short time.</p>
+                        ACADEMIA <span className="text-title font-medium">is a consultancy organization consisting</span> — of experts in their fields, who have come together in order to provide the consultancy services that companies need from a single source.Our company, which includes 5 main service groups: Product Certification Group, System Certification Group, Training Support Group, Legal Compliance Group and Project Group, aims to provide all the necessary support for companies to breathe from a single address, thus allowing great developments in a short time.</p>
 
                         <div className="grid grid-cols-2 gap-3 pt-6 sm:gap-4">
                             <div className="space-y-3">
