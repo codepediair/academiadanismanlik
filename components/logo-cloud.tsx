@@ -17,26 +17,26 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <img
                                     className="mx-auto h-5 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/nvidia.svg"
+                                    src="/SVG/ar-elik.svg"
                                     alt="Nvidia Logo"
-                                    height="20"
-                                    width="auto"
+                                    height="auto"
+                                    width="16"
                                 />
                             </div>
 
                             <div className="flex">
                                 <img
                                     className="mx-auto h-4 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/column.svg"
+                                    src="/SVG/hisense.svg"
                                     alt="Column Logo"
-                                    height="16"
+                                    height="auto"
                                     width="auto"
                                 />
                             </div>
                             <div className="flex">
                                 <img
                                     className="mx-auto h-4 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/github.svg"
+                                    src="/SVG/gorenje.svg"
                                     alt="GitHub Logo"
                                     height="16"
                                     width="auto"
@@ -45,7 +45,7 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <img
                                     className="mx-auto h-5 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/nike.svg"
+                                    src="/SVG/imq.svg"
                                     alt="Nike Logo"
                                     height="20"
                                     width="auto"
@@ -54,16 +54,16 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <img
                                     className="mx-auto h-5 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/lemonsqueezy.svg"
+                                    src="/SVG/siscam.svg"
                                     alt="Lemon Squeezy Logo"
-                                    height="20"
+                                    height="30"
                                     width="auto"
                                 />
                             </div>
                             <div className="flex">
                                 <img
                                     className="mx-auto h-4 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/laravel.svg"
+                                    src="/SVG/tofas.svg"
                                     alt="Laravel Logo"
                                     height="16"
                                     width="auto"
@@ -72,19 +72,9 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <img
                                     className="mx-auto h-7 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/lilly.svg"
+                                    src="/SVG/tuvrhe.svg"
                                     alt="Lilly Logo"
                                     height="28"
-                                    width="auto"
-                                />
-                            </div>
-
-                            <div className="flex">
-                                <img
-                                    className="mx-auto h-6 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/openai.svg"
-                                    alt="OpenAI Logo"
-                                    height="24"
                                     width="auto"
                                 />
                             </div>
