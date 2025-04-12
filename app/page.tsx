@@ -5,12 +5,14 @@ import Features2 from "@/components/features-10";
 import FooterSection from "@/components/footer";
 import HeroSection from "@/components/hero-section";
 import LogoCloud from "@/components/logo-cloud";
+import FeaturesN from "@/components/features-1";
 
 export default function Home() {
   return (
     <div>
       <HeroSection/>
-      <Features/>
+      <FeaturesN/>
+      {/* <Features/> */}
       <ContentSection/>
       <Features2/>
       <ContactSection/>
