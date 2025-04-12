@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Settings2, Sparkles, Zap } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { ReactNode } from "react";
 
 export default function FeaturesN() {
@@ -13,116 +14,174 @@ export default function FeaturesN() {
           </h2>
         </div>
         <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
-          <Card className="bg-transparent border-0 shadow-none group">
-            <CardHeader className="pb-3">
-              {/* <CardDecorator>
+          <Link href="/system-cericication">
+            <Card className="bg-transparent border-0 shadow-none group">
+              <CardHeader className="pb-3">
+                {/* <CardDecorator>
                                 <Zap className="siz-6 bg-background" aria-hidden/>
-                            </CardDecorator> */}
+                                </CardDecorator> */}
 
-              <Image
-                src="https://images.unsplash.com/photo-1682561477064-44fb2dfd82bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="system certification"
-                width="0"
-                height="0"
-                sizes="100vw"
-                className="w-full h-auto"
-              />
-              <h3 className="mt-6 font-medium">System Certification</h3>
-            </CardHeader>
+                <Image
+                  src="https://images.unsplash.com/photo-1682561477064-44fb2dfd82bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="system certification"
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="w-full h-auto rounded-2xl"
+                />
+                <h3 className="mt-6 font-medium">System Certification</h3>
+              </CardHeader>
 
-            <CardContent>
-              <p className="text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                cupiditate minima earum dolore, tempora eius, et modi velit
-                debitis quisquam laudantium temporibus, a atque explicabo porro
-                reiciendis quae eveniet ad.
-              </p>
-            </CardContent>
-          </Card>
+              <CardContent>
+                <p className="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                  cupiditate minima earum dolore, tempora eius, et modi velit
+                  debitis quisquam laudantium temporibus, a atque explicabo
+                  porro reiciendis quae eveniet ad.
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+          <Link href="/system-cericication">
+            <Card className="bg-transparent border-0 shadow-none group">
+              <CardHeader className="pb-3">
+                {/* <CardDecorator>
+                                <Zap className="siz-6 bg-background" aria-hidden/>
+                                </CardDecorator> */}
 
-          <Card className="group shadow-zinc-950/5">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Settings2 className="size-6" aria-hidden />
-              </CardDecorator>
+                <Image
+                  src="https://images.unsplash.com/photo-1682561477064-44fb2dfd82bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="system certification"
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="w-full h-auto rounded-2xl"
+                />
+                <h3 className="mt-6 font-medium">System Certification</h3>
+              </CardHeader>
 
-              <h3 className="mt-6 font-medium">You have full control</h3>
-            </CardHeader>
+              <CardContent>
+                <p className="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                  cupiditate minima earum dolore, tempora eius, et modi velit
+                  debitis quisquam laudantium temporibus, a atque explicabo
+                  porro reiciendis quae eveniet ad.
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+          <Link href="/system-cericication">
+            <Card className="bg-transparent border-0 shadow-none group">
+              <CardHeader className="pb-3">
+                {/* <CardDecorator>
+                                <Zap className="siz-6 bg-background" aria-hidden/>
+                                </CardDecorator> */}
 
-            <CardContent>
-              <p className="mt-3 text-sm">
-                From design elements to functionality, you have complete control
-                to create a unique and personalized experience.
-              </p>
-            </CardContent>
-          </Card>
+                <Image
+                  src="https://images.unsplash.com/photo-1682561477064-44fb2dfd82bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="system certification"
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="w-full h-auto rounded-2xl"
+                />
+                <h3 className="mt-6 font-medium">System Certification</h3>
+              </CardHeader>
 
-          <Card className="group shadow-zinc-950/5">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Sparkles className="size-6" aria-hidden />
-              </CardDecorator>
+              <CardContent>
+                <p className="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                  cupiditate minima earum dolore, tempora eius, et modi velit
+                  debitis quisquam laudantium temporibus, a atque explicabo
+                  porro reiciendis quae eveniet ad.
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+          <Link href="/system-cericication">
+            <Card className="bg-transparent border-0 shadow-none group">
+              <CardHeader className="pb-3">
+                {/* <CardDecorator>
+                                <Zap className="siz-6 bg-background" aria-hidden/>
+                                </CardDecorator> */}
 
-              <h3 className="mt-6 font-medium">Powered By AI</h3>
-            </CardHeader>
+                <Image
+                  src="https://images.unsplash.com/photo-1682561477064-44fb2dfd82bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="system certification"
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="w-full h-auto rounded-2xl"
+                />
+                <h3 className="mt-6 font-medium">System Certification</h3>
+              </CardHeader>
 
-            <CardContent>
-              <p className="mt-3 text-sm">
-                Elements to functionality, you have complete control to create a
-                unique experience.
-              </p>
-            </CardContent>
-          </Card>
-          <Card className="group shadow-zinc-950/5">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Zap className="size-6" aria-hidden />
-              </CardDecorator>
+              <CardContent>
+                <p className="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                  cupiditate minima earum dolore, tempora eius, et modi velit
+                  debitis quisquam laudantium temporibus, a atque explicabo
+                  porro reiciendis quae eveniet ad.
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+          <Link href="/system-cericication">
+            <Card className="bg-transparent border-0 shadow-none group">
+              <CardHeader className="pb-3">
+                {/* <CardDecorator>
+                                <Zap className="siz-6 bg-background" aria-hidden/>
+                                </CardDecorator> */}
 
-              <h3 className="mt-6 font-medium">Customizable</h3>
-            </CardHeader>
+                <Image
+                  src="https://images.unsplash.com/photo-1682561477064-44fb2dfd82bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="system certification"
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="w-full h-auto rounded-2xl"
+                />
+                <h3 className="mt-6 font-medium">System Certification</h3>
+              </CardHeader>
 
-            <CardContent>
-              <p className="text-sm">
-                Extensive customization options, allowing you to tailor every
-                aspect to meet your specific needs.
-              </p>
-            </CardContent>
-          </Card>
+              <CardContent>
+                <p className="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                  cupiditate minima earum dolore, tempora eius, et modi velit
+                  debitis quisquam laudantium temporibus, a atque explicabo
+                  porro reiciendis quae eveniet ad.
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+          <Link href="/system-cericication">
+            <Card className="bg-transparent border-0 shadow-none group">
+              <CardHeader className="pb-3">
+                {/* <CardDecorator>
+                                <Zap className="siz-6 bg-background" aria-hidden/>
+                                </CardDecorator> */}
 
-          <Card className="group shadow-zinc-950/5">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Settings2 className="size-6" aria-hidden />
-              </CardDecorator>
+                <Image
+                  src="https://images.unsplash.com/photo-1682561477064-44fb2dfd82bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="system certification"
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="w-full h-auto rounded-2xl"
+                />
+                <h3 className="mt-6 font-medium">System Certification</h3>
+              </CardHeader>
 
-              <h3 className="mt-6 font-medium">You have full control</h3>
-            </CardHeader>
-
-            <CardContent>
-              <p className="mt-3 text-sm">
-                From design elements to functionality, you have complete control
-                to create a unique and personalized experience.
-              </p>
-            </CardContent>
-          </Card>
-
-          <Card className="group shadow-zinc-950/5">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Sparkles className="size-6" aria-hidden />
-              </CardDecorator>
-
-              <h3 className="mt-6 font-medium">Powered By AI</h3>
-            </CardHeader>
-
-            <CardContent>
-              <p className="mt-3 text-sm">
-                Elements to functionality, you have complete control to create a
-                unique experience.
-              </p>
-            </CardContent>
-          </Card>
+              <CardContent>
+                <p className="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                  cupiditate minima earum dolore, tempora eius, et modi velit
+                  debitis quisquam laudantium temporibus, a atque explicabo
+                  porro reiciendis quae eveniet ad.
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
         </div>
       </div>
     </section>
