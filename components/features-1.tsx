@@ -17,7 +17,7 @@ export default function FeaturesN() {
                                 <Zap className="siz-6 bg-background" aria-hidden/>
                             </CardDecorator> */}
 
-                            <Image src="https://images.unsplash.com/photo-1682561477064-44fb2dfd82bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="system certification" width={24} height={24}/>
+                            <Image src="https://images.unsplash.com/photo-1682561477064-44fb2dfd82bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="system certification" width={100} height={100}/>
                             <h3 className="mt-6 font-medium">System Certification</h3>
                         </CardHeader>
 
