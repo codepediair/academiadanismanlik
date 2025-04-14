@@ -14,7 +14,7 @@ export default function Home() {
       <FeaturesN/>
       {/* <Features/> */}
       <ContentSection/>
-      <Features2/>
+      {/* <Features2/> */}
       <ContactSection/>
       <LogoCloud/>
       <FooterSection/>
