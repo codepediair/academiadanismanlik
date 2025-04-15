@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div>
       <HeroSection/>
-      <FeaturesN/>
-      {/* <Features/> */}
+      {/* <FeaturesN/> */}
+      <Features/>
       <ContentSection/>
       {/* <Features2/> */}
       <ContactSection/>
