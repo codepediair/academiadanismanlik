@@ -1,4 +1,4 @@
-import { Logo } from "@/components/logo";
+import { Logo, LogoImage } from "@/components/logo";
 import Link from "next/link";
 
 const links = [
@@ -25,7 +25,7 @@ export default function FooterSection() {
     <footer className="py-16 md:py-32">
       <div className="mx-auto max-w-5xl px-6">
         <Link href="/" aria-label="go home" className="mx-auto block size-fit">
-          <Logo />
+          <LogoImage/>
         </Link>
 
         <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { HeroHeader } from "@/components/hero5-header";
+import FooterSection from "@/components/footer";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +21,9 @@ export default function RootLayout({
       <body
         className={inter.className}
       >
+        <HeroHeader />
         {children}
+        <FooterSection />
       </body>
     </html>
   );
